@@ -1,0 +1,50 @@
+{
+  "claude": {
+    "tiers": [
+      { "value": "haiku",  "label": "Haiku 4.5",  "apiId": "claude-haiku-4-5-20251001", "orId": "anthropic/claude-haiku-4.5" },
+      { "value": "sonnet", "label": "Sonnet 4.6", "apiId": "claude-sonnet-4-6",          "orId": "anthropic/claude-sonnet-4.6" },
+      { "value": "opus",   "label": "Opus 4.8",   "apiId": "claude-opus-4-8",            "orId": "anthropic/claude-opus-4.8" },
+      { "value": "fable",  "label": "Fable 5",    "apiId": "claude-fable-5",             "orId": "anthropic/claude-fable-5" }
+    ],
+    "services": [
+      { "value": "anthropic-api", "label": "Anthropic API" },
+      { "value": "openrouter",    "label": "OpenRouter" },
+      { "value": "claude-cli",    "label": "Claude CLI" },
+      { "value": "copilot",       "label": "GitHub Copilot" }
+    ]
+  },
+  "gpt": {
+    "tiers": [
+      { "value": "5.4-mini", "label": "GPT-5.4 mini", "apiId": "gpt-5.4-mini", "orId": "openai/gpt-5.4-mini" },
+      { "value": "5.4",      "label": "GPT-5.4",      "apiId": "gpt-5.4",      "orId": "openai/gpt-5.4" },
+      { "value": "5.5",      "label": "GPT-5.5",      "apiId": "gpt-5.5",      "orId": "openai/gpt-5.5" }
+    ],
+    "services": [
+      { "value": "openai-api", "label": "OpenAI API" },
+      { "value": "openrouter", "label": "OpenRouter" },
+      { "value": "copilot",    "label": "GitHub Copilot" }
+    ]
+  },
+  "gemini": {
+    "tiers": [
+      { "value": "flash-lite", "label": "Flash 3.1 Lite", "apiId": "gemini-3.1-flash-lite",  "orId": "google/gemini-3.1-flash-lite" },
+      { "value": "flash-35",   "label": "Flash 3.5",      "apiId": "gemini-3.5-flash",        "orId": "google/gemini-3.5-flash" },
+      { "value": "pro-31",     "label": "Pro 3.1",        "apiId": "gemini-3.1-pro-preview",  "orId": "google/gemini-3.1-pro-preview" }
+    ],
+    "services": [
+      { "value": "gemini-api", "label": "Gemini API" },
+      { "value": "openrouter", "label": "OpenRouter" },
+      { "value": "gemini-cli", "label": "Gemini CLI" }
+    ]
+  },
+  "copilot": {
+    "tiers": [
+      { "value": "gpt-mini", "label": "GPT-5.4 mini",   "apiId": "gpt-5.4-mini",     "orId": "" },
+      { "value": "gpt",      "label": "GPT-5.4",         "apiId": "gpt-5.4",           "orId": "" },
+      { "value": "sonnet",   "label": "Claude Sonnet",   "apiId": "claude-sonnet-4-6", "orId": "" }
+    ],
+    "services": [
+      { "value": "copilot", "label": "GitHub Copilot" }
+    ]
+  }
+}
